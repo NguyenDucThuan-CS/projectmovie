@@ -1,0 +1,115 @@
+.hot__movie {
+    margin-top: 30px;
+}
+.hot__movie .container > span {
+    font-size: 20px;
+}
+.hot__movie .container .movie__list {
+    margin-top: 20px;
+}
+
+.hot__movie .container .movie__item {
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 0;
+    box-shadow: 5px 5px 5px 5px gray;
+    border: none;
+    margin-bottom: 20px;
+}
+
+
+
+.hot__movie .container .movie__item .card-body {
+    position: relative;
+    padding: 10px
+}
+
+.hot__movie .container .movie__item .card-body .btn {
+    top: 0;
+    left: 0;
+    background-color: #ec7532;
+    width: 100%;
+    position: absolute;
+    visibility: hidden;
+}
+
+.hot__movie .container .movie__item:hover .btn {
+    visibility: visible;
+    font-weight: bold;
+}
+.hot__movie .container .movie__item .type-movie {
+    margin-bottom: 0;
+}
+.hot__movie .container .movie__item .star-list {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.hot__movie .container .movie__item .img {
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+
+.hot__movie .container .movie__item .img_item{
+    display: block;
+    height: 300px;
+    width:100%;
+}
+
+.hot__movie .container .movie__item span {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 10px solid;
+    text-align: center;
+    line-height: 70px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: aliceblue;
+    opacity: 0;
+    transition: all 0.5s;
+    z-index: 10;
+}
+
+.hot__movie .container .movie__item .over__lay{
+    width: 100%;
+    height: 300px;
+    background-color:rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.hot__movie .container .movie__item:hover .over__lay {
+    opacity: 1;
+}
+.hot__movie .container .movie__item span:hover {
+    cursor: pointer;
+}
+
+.hot__movie .container .movie__item span i {
+    font-size: 30px;
+}
+
+.hot__movie .container .movie__item:hover span {
+    opacity: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.hot__movie .container .movie__item .fa-star {
+    color: #ec7532;
+}
+
+
+.hot__movie .container .movie__item  h5 {
+    font-weight: bold;
+}
