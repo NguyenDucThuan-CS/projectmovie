@@ -39,8 +39,6 @@ export const QuanLyDatVeReducer = (state=stateDefault,action) => {
             } else {
                   danhSachGheCapNhat.push(action.gheDuocChon);
             }
-          
-                
             return { ...state,danhSachGheDangDat:danhSachGheCapNhat };
         case DAT_VE_HOAN_TAT:
             state.danhSachGheDangDat = []
