@@ -8,12 +8,9 @@ import "jquery/dist/jquery.min.js";
 import "popper.js/dist/umd/popper.min.js";
 import "bootstrap/dist/js/bootstrap.min.js";
 import {Provider} from "react-redux"
-import { createStore,applyMiddleware } from "redux"
-import rootReducer from './redux/reducer';
-import thunk from 'redux-thunk';
+import { store } from "./redux/configStore"
+import "antd/dist/antd.css"
 
-
-const store = createStore(rootReducer, applyMiddleware(thunk));
 ReactDOM.render(
   <Provider store = { store }>
     <App />

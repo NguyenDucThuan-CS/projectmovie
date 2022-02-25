@@ -1,0 +1,185 @@
+
+.detail__movie {
+    margin-top: 0px;
+    height: 1500px;
+    background-image: url('./img/bgListMoviesa67de32e.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+   
+    
+}
+
+.detail__movie .detail__movie__container {
+    width: 70%;
+    padding-top: 50px;
+}
+
+
+.detail__movie .detail_movie_left img {
+    width: 100%;
+   height: 100%;
+}
+
+.detail__movie .detail_movie_left .img_detail_movie {
+    border-radius: 10px;
+    overflow: hidden;
+    height: 350px;
+}
+
+.detail__movie .container .press_button {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.detail__movie .container .press_button button {
+    border: none;
+    background-color: #ec7532;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.detail__movie .detail_movie_right {
+    padding-left: 50px;
+    color: white;
+ 
+}
+
+.detail__movie .detail_movie_right > span {
+    display: inline-block;
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    color: #fbbd61;
+    
+}
+
+.detail__movie .detail_movie_right span {
+    color: #fbbd61;
+    font-weight: bold;
+}
+
+
+
+.detail__movie .movie__calendar > h1 {
+    color: white;
+    text-align: center;
+}
+
+.detail__movie .movie__calendar .movie__calender__content {
+    background-color: white;
+    height: 700px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.detail__movie .movie__calendar .movie__calender__content .movie__calender__content__left span {
+    width: 100%;
+    height: 50px;
+    line-height: 60px;
+
+    font-size: 20px;
+}
+
+.detail__movie .movie__calendar .movie__calender__content .theater__item {
+    padding-bottom: 13px;
+    border-bottom: 1px solid rgb(71, 70, 70,0.7);
+    margin-top: 15px;
+}
+
+.detail__movie .movie__calendar .movie__calender__content button {
+    border: none;
+    background-color: transparent;
+}
+
+.detail__movie .movie__calendar .movie__calender__content button:hover .theater__item span {
+    font-size: 25px;
+}
+.detail__movie .movie__calendar img {
+    width: 20%;
+}
+
+.__overflow {
+    overflow-y: auto;
+    overflow-x: auto;
+}
+.movie__calendar .movie__calender__content .movie__calender__content__right .day__month {
+  
+    width: 100%;
+    height: 100px;
+}
+
+.movie__calendar .movie__calender__content .movie__calender__content__right .day__month button{
+    border: none;
+    margin-right: 15px;
+    margin-top: 10px;
+    padding: 10px;
+    display: inline;
+    transition: all 0.5s;
+}
+
+.movie__calendar .movie__calender__content .movie__calender__content__right .day__month button:hover{
+    color: #fbbd61;
+    font-size: 20px;
+}
+
+
+.movie__calendar .movie__calender__content .movie__calender__content__right .day__month span{
+    font-size: 20px;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    
+}
+
+.movie__calendar .movie__calender__content .movie__calender__content__right .hour__showtime {
+    margin-top: 20px;
+}
+
+.movie__calendar .movie__calender__content .movie__calender__content__right .hour__showtime .hour__showtime__top img{
+    height: 100px;
+    margin-right: 20px;
+}
+
+.movie__calendar .movie__calender__content .movie__calender__content__right .hour__showtime .hour__showtime__top span {
+  
+    border: 2px solid rgb(196, 35, 35);
+    padding: 5px;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.movie__calendar .movie__calender__content .movie__calender__content__right .hour__showtime .hour__showtime__bottom {
+    margin-top: 20px;
+}
+
+.movie__calendar .movie__calender__content .movie__calender__content__right .hour__showtime .hour__showtime__bottom button {
+    width: 80px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: none;
+    padding: 10px;
+    background-color: #fbbd61;
+    transition: all 0.5s;
+}
+
+.movie__calendar .movie__calender__content .movie__calender__content__right .hour__showtime .hour__showtime__bottom button:hover {
+    font-size: 20px;
+}
+
+
+
+.detail__movie .over__lay {
+    background-color: rgba(43, 40, 40, 0.9);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+

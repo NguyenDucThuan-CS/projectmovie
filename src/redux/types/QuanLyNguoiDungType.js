@@ -1,0 +1,2 @@
+export const DANG_NHAP_ACTION = 'DANG_NHAP_ACTION'
+export const GET_ACCOUNT_INFO = 'GET_ACCOUNT_INFO'

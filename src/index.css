@@ -12,3 +12,18 @@ code {
     monospace;
 }
  */
+
+ * {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+ 
+}
+
+.clear {
+    clear: both;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: white;
+}
